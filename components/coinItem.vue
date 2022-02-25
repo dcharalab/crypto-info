@@ -37,21 +37,31 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  padding-right: 2rem;
   margin-bottom: 0.2rem;
   border-bottom: 1px solid white;
   border: 3px solid plum;
   border-radius: 25px;
   box-shadow: 0 0 50px rgb(106, 29, 151);
-  min-width: 30rem;
+  min-width: 50rem;
   transition: 0.15s;
 }
+
 .coin:hover {
   transform: rotate(5deg);
+  background-color: blueviolet;
 }
 .data-column {
-  font-size: 11px;
   font-size: 1.5rem;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .coin {
+    min-width: 85%;
+  }
+  .data-column {
+    font-size: 1rem;
+    color: white;
+  }
 }
 </style>
