@@ -28,11 +28,20 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ["@nuxtjs/google-fonts"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  //google fonts
+  googleFonts: {
+    families: {
+      Roboto: true,
+      "ZCOOL QingKe HuangYou": true,
+    },
+    display: "swap",
+  },
 };
