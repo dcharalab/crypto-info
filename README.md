@@ -19,3 +19,4 @@ $ npm run generate
 This is the same project as crypto-app but this time i 
 used Nuxtjs so i can create a static site and deploy it.
 Deployed as a static site the cryptocurrency prices will not update.
+Go to https://dcharalab.github.io/crypto-info/
