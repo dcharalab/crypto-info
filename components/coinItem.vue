@@ -47,7 +47,7 @@ export default {
   transition: 0.15s;
 }
 .coin:hover {
-  transform: scale(1.02);
+  transform: rotate(5deg);
 }
 .data-column {
   font-size: 11px;
