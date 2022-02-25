@@ -1,9 +1,9 @@
 <template>
-  <ul>
-    <li id="list-item" v-for="coin in coins" :key="coin.id">
+  <div>
+    <div id="list-item" v-for="coin in coins" :key="coin.id">
       <coinItem :coin="coin" />
-    </li>
-  </ul>
+    </div>
+  </div>
 </template>
 
 <script>

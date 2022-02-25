@@ -1,10 +1,10 @@
 <template>
-  <li class="coin" id="list-item">
+  <div class="coin" id="list-item">
     <div class="data-column"><img :src="coin.image.small" /></div>
     <div class="data-column">{{ coin.symbol.toUpperCase() }}</div>
     <div class="data-column">{{ usdToBTC }} $</div>
     <div class="data-column"># {{ coin.market_cap_rank }}</div>
-  </li>
+  </div>
 </template>
 
 <script>
