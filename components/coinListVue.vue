@@ -29,6 +29,7 @@ export default {
         axios.get(`https://api.coingecko.com/api/v3/coins/polkadot `),
         axios.get(`https://api.coingecko.com/api/v3/coins/stellar `),
         axios.get(`https://api.coingecko.com/api/v3/coins/monero `),
+        axios.get(`https://api.coingecko.com/api/v3/coins/shiba-inu `),
       ];
 
       let responses = await axios.all(requests);
