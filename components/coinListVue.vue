@@ -30,6 +30,7 @@ export default {
         axios.get(`https://api.coingecko.com/api/v3/coins/stellar `),
         axios.get(`https://api.coingecko.com/api/v3/coins/monero `),
         axios.get(`https://api.coingecko.com/api/v3/coins/shiba-inu `),
+        axios.get(`https://api.coingecko.com/api/v3/coins/decentraland `),
       ];
 
       let responses = await axios.all(requests);
