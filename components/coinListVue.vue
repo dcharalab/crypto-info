@@ -34,9 +34,9 @@ export default {
       ];
 
       let responses = await axios.all(requests);
-      for (const coin of responses) {
+      responses.forEach((coin) => {
         this.coins.push(coin.data);
-      }
+      });
     } catch (e) {
       this.errors.push(e);
     }
